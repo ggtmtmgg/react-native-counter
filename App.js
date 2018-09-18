@@ -6,7 +6,7 @@ import reducer from './redux/reducers';
 
 const store = createStore(reducer);
 
-export default class ReduxCounterUniversal extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
