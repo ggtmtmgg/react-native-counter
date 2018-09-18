@@ -1,7 +1,7 @@
 import * as React from 'react';
-import RootContainer from './containers/RootContainer';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import RootContainer from './containers/RootContainer';
 import reducer from './redux/reducers';
 
 const store = createStore(reducer);

@@ -46,11 +46,11 @@ const ButtonBox = styled(TouchableHighlight)`
 
 const ButtonBoxPlus = styled(ButtonBox)`
   border: ${colors.plus};
-`
+`;
 
 const ButtonBoxMinus = styled(ButtonBox)`
   border: ${colors.minus};
-`
+`;
 
 const ButtonText = styled(Text)`
   font-size: 20;
